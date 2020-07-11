@@ -52,6 +52,6 @@ public class UseJoin {
         System.out.println("lison开始排队打饭.....");
         g.join();
         SleepTools.second(2);//让主线程休眠2秒
-        System.out.println(Thread.currentThread().getName() + " lison打饭完成.");
+        System.out.println(Thread.currentThread().getName() + " lison打饭完成.666");
     }
 }
