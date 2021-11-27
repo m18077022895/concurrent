@@ -25,6 +25,7 @@ public class FkSort {
                 return InsertionSort.sort(src);
             }else{
                 //fromIndex....mid.....toIndex
+                //test git
                 int mid = src.length / 2;
                 SumTask leftTask = new SumTask(Arrays.copyOfRange(src, 0, mid));
                 SumTask rightTask = new SumTask(Arrays.copyOfRange(src, mid, src.length));
